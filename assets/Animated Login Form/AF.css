@@ -1,0 +1,183 @@
+@import url(https //fonts.googleapis.com/icon family=material+icons)
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' ,sans-serif;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    background: url(images.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box
+{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    border: 2px solid rgba(232, 226, 226, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2em;
+    color: rgb(13, 13, 208);
+    text-align: center;
+}
+.inputbox{
+    position:relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom:2px solid #b32464;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: aqua;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus~label,
+input:valid~ :valid{
+top:-5px;
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: rgb(224, 17, 24);
+
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    color: aqua;
+    font-size: 1.2em;
+    
+}
+
+
+
+
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: rgb(195, 192, 20);
+    display: flex;
+    justify-content: center;
+}
+.forget label input{
+    margin-right: 3px;
+
+}
+.forget label a{
+    color: #a54ca5;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #773789;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    
+}
+.register{
+    font-size: .9em;
+    color: rgb(238, 139, 9);
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #e40c0c;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+
+}
+.fgp{
+    text-align: center;
+    background-color: rgb(205, 178, 231);
+    margin: 0px 150px;
+    padding-top: 30px;
+    height: 400px;
+}
+.inputbox2{
+    /* background-color: #eecbee; */
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.inputbox2 label{
+    position:relative;
+    /* top: 21%; */
+    left: -220px;
+    /* transform:initial;
+    color: rgb(68, 30, 181);
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s; */
+    
+    
+}
+.btn
+{
+    background-color:#722761;
+    width: 80px;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 40px;   
+    /* margin-left: 100px; */
+}
+.rh
+{
+    text-align: center;
+    background-color: rgb(205, 178, 231);
+    margin: 0px 300px;
+    padding-top: 30px;
+    height: 400px;
+    
+}
+.registerbox{
+    /* background-color: rgb(186, 146, 223); */
+    text-align: center;
+    margin-top: 30px;
+    
+    position:relative;
+    /* top: 21%; */
+    left: 20px;
+}
+
+.registerbox label{
+    position:relative;
+    /* top: 21%; */
+    left: -250px;
+    /* text-shadow: 20px; */
+}
